@@ -39,7 +39,7 @@ TW.IDE.Widgets.radarchart = function () {
           'baseType': 'BOOLEAN',
           'isBindingTarget': false,
           'isEditable': true,
-          'description': 'true to start the chart at zero',
+          'description': 'if true, scale will include 0 if it is not already included',
           'defaultValue': true
         },
         'minValue': {
@@ -79,7 +79,7 @@ TW.IDE.Widgets.radarchart = function () {
           'baseType': 'NUMBER',
           'isBindingTarget': false,
           'isEditable': true,
-          'description': 'The radius of the point shap',
+          'description': 'The radius of the point shape',
           'defaultValue': 3
         },
         'pointBorderWidth': {
@@ -87,7 +87,7 @@ TW.IDE.Widgets.radarchart = function () {
           'baseType': 'NUMBER',
           'isBindingTarget': false,
           'isEditable': true,
-          'description': 'The width of the point border in pixels',
+          'description': 'The width of the point border',
           'defaultValue': 1
         },
         'pointHoverRadius': {
