@@ -5,6 +5,7 @@ $("body").append('<script type="text/javascript" src="../Common/extensions/Chart
 Chart.platform.disableCSSInjection = true;
 
 TW.Runtime.Widgets.radarchart = function () {
+  var radarChart;
   var thisWidget = this;
   var uid = new Date().getTime() + "_" + Math.floor(1000 * Math.random());
 
@@ -36,18 +37,29 @@ TW.Runtime.Widgets.radarchart = function () {
       var dataSettings = thisWidget.getProperty('dataSettings');
       var debugMode = thisWidget.getProperty('debugMode');
 
-      if (data) {
+      if (data && data.rows.length) {
+        if (radarChart) {
+          radarChart.destroy();
+        }
+
         var radarData = this.setRadarData(data, dataSettings);
         var radarOptions = this.setRadarOptions();
         var canvas = $('.widget-radarchart-canvas-' + uid).get(0);
 
-        var radarChart = new Chart(canvas, {
+        if (debugMode) {
+          console.log("RadarChart - radarData = ");
+          console.log(radarData);
+          console.log("RadarChart - radarOptions = ");
+          console.log(radarOptions);
+        }
+
+        radarChart = new Chart(canvas, {
           type: 'radar',
           data: radarData,
           options: radarOptions
         });
-      } else {
-
+      } else if (radarChart) {
+        radarChart.clear();
       }
     }
   };
