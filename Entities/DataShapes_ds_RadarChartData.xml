@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b243" majorVersion="9" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="3" schemaVersion="1102" universal="">
+  <DataShapes>
+    <DataShape name="ds_RadarChartData">
+      <FieldDefinitions>
+        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="dataset" ordinal="1"/>
+        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="field" ordinal="2"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="NUMBER" description="" name="value" ordinal="3"/>
+      </FieldDefinitions>
+    </DataShape>
+  </DataShapes>
+</Entities>

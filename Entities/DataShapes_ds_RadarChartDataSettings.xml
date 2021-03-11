@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b243" majorVersion="9" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="3" schemaVersion="1102" universal="">
+  <DataShapes>
+    <DataShape name="ds_RadarChartDataSettings">
+      <FieldDefinitions>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="backgroundColor" ordinal="2"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="borderColor" ordinal="3"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="pointBackgroundColor" ordinal="4"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="pointBorderColor" ordinal="5"/>
+        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="dataset" ordinal="1"/>
+      </FieldDefinitions>
+    </DataShape>
+  </DataShapes>
+</Entities>
