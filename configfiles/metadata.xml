@@ -3,9 +3,9 @@
   <ExtensionPackages>
     <ExtensionPackage 
       name="RadarChartWidget"
-      packageVersion="1.1.1"
+      packageVersion="2.2.0"
       vendor="Accenture Italy - Industry X"
-      description="Extension to manage charts by using Chart.js library"
+      description="Extension to show a radar chart"
       minimumThingWorxVersion="8.3.0"> 
     </ExtensionPackage>
   </ExtensionPackages>

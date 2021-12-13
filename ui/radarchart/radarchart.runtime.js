@@ -1,6 +1,11 @@
 /* global TW, Chart */
-$("head").append('<link href="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.css" rel="stylesheet">');
-$("body").append('<script type="text/javascript" src="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.js"></script>');
+if (!$("link[chartjs='true']").length) {
+  $("head").append('<link chartjs="true" href="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.css" rel="stylesheet">');
+}
+
+if (!$("script[chartjs='true']").length) {
+  $("body").append('<script chartjs="true" type="text/javascript" src="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.js"></script>');
+}
 // Disable automatic style injection
 Chart.platform.disableCSSInjection = true;
 

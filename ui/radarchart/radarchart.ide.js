@@ -25,14 +25,14 @@ TW.IDE.Widgets.radarchart = function () {
           'baseType': 'INFOTABLE',
           'isBindingTarget': true,
           'isEditable': false,
-          'description': 'The data to show (use the Data Shape ds_RadarChartData)'
+          'description': 'The data to show (use or duplicate & extend the Data Shape ds_RadarChartData)'
         },
         'dataSettings': {
           'isVisible': true,
           'baseType': 'INFOTABLE',
           'isBindingTarget': true,
           'isEditable': false,
-          'description': 'The settings of the data (use the Data Shape ds_RadarChartDataSettings)'
+          'description': 'The settings of the data (use or duplicate & extend  the Data Shape ds_RadarChartDataSettings)'
         },
         'beginAtZero': {
           'isVisible': true,
