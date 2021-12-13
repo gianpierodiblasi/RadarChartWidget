@@ -2,7 +2,7 @@
 <Entities>
   <ExtensionPackages>
     <ExtensionPackage 
-      name="ChartJSWidget"
+      name="RadarChartWidget"
       packageVersion="1.1.1"
       vendor="Accenture Italy - Industry X"
       description="Extension to manage charts by using Chart.js library"

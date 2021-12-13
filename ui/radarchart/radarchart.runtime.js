@@ -1,6 +1,6 @@
 /* global TW, Chart */
-$("head").append('<link href="../Common/extensions/ChartJSWidget/ui/radarchart/jslibrary/Chart.min.css" rel="stylesheet">');
-$("body").append('<script type="text/javascript" src="../Common/extensions/ChartJSWidget/ui/radarchart/jslibrary/Chart.min.js"></script>');
+$("head").append('<link href="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.css" rel="stylesheet">');
+$("body").append('<script type="text/javascript" src="../Common/extensions/RadarChartWidget/ui/radarchart/jslibrary/Chart.min.js"></script>');
 // Disable automatic style injection
 Chart.platform.disableCSSInjection = true;
 

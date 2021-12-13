@@ -1,7 +1,7 @@
 /* global TW */
 TW.IDE.Widgets.radarchart = function () {
   this.widgetIconUrl = function () {
-    return '../Common/extensions/ChartJSWidget/ui/radarchart/radarchart.png';
+    return '../Common/extensions/RadarChartWidget/ui/radarchart/radarchart.png';
   };
 
   this.widgetProperties = function () {
