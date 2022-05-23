@@ -1,6 +1,8 @@
 # RadarChartWidget
 An extension to show a radar chart.
 
+**This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite and there is no PTC support.**
+
 ## Description
 This extension provides a widget to show a radar chart based on the chart.js library (see dependencies). The chart is described by the ds_RadarChartData DataShape for data and the ds_RadarChartDataSettings for settings (see below); the DataShape structures are mandatory, but they can be extended with additional fields.
 
